@@ -4307,3 +4307,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.02.01-13.17.23:953][771]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.174
 [2020.02.01-13.22.53:234][892]BlueprintLog: New page: Compile SpaceShip
 [2020.02.01-13.22.53:375][892]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2020.02.01-13.27.24:219][936]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.02.01-13.27.24:362][936]LogSavePackage: Moving '../../../../../../Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/SpaceShip_Auto34ECAC5534D6ACFDBF025C1AD3D16758A.tmp' to '../../../../../../Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Autosaves/Game/Levels/SpaceShip_Auto3.umap'
+[2020.02.01-13.27.24:365][936]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/SpaceShip' took 0.171
+[2020.02.01-13.27.24:365][936]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.171
