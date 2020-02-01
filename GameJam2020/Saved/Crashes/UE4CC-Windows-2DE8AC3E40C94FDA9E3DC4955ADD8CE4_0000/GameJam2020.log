@@ -615,10 +615,3 @@ Script Stack (0 frames):
 [2020.02.01-14.47.48:538][260]LogOutputDevice: Error: [Callstack] 0x00007ffcd66eced1 ntdll.dll!UnknownFunction []
 [2020.02.01-14.47.48:538][260]LogOutputDevice: Error: 
 [2020.02.01-14.47.48:549][260]LogStats:                SubmitErrorReport -  0.000 s
-[2020.02.01-14.47.49:262][260]LogStats:                    SendNewReport -  0.713 s
-[2020.02.01-14.47.49:262][260]LogStats:             FDebug::EnsureFailed -  1.026 s
-[2020.02.01-14.47.51:857][260]LogSlate: Window 'Submit Files' being destroyed
-[2020.02.01-14.47.58:967][ 81]SourceControl: Source control is disabled
-[2020.02.01-14.47.58:968][ 81]LogSlate: Window 'Source Control Login' being destroyed
-[2020.02.01-14.48.02:134][452]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/SpaceShip.SpaceShip
-[2020.02.01-14.48.02:174][452]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
