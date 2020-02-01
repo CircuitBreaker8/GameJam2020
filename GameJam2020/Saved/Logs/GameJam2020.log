@@ -1,4 +1,4 @@
-﻿Log file open, 02/01/20 06:43:52
+﻿Log file open, 02/01/20 07:07:04
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: GameJam2020
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.088691
+LogStats: Stats thread started at 0.074368
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,6 +93,7 @@ LogPluginManager: Mounting plugin PhysXVehicles
 LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamAudio
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
@@ -157,468 +158,512 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Engine.ini]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[r.HZBOcclusion:0]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[r.SSR.MaxRoughness:0]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[r.rhicmdbypass:0]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Engine.ini]
-[2020.02.01-14.43.52:888][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Engine.ini]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Engine.ini]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.02.01-14.43.52:888][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Engine.ini]
-[2020.02.01-14.43.52:888][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Engine.ini]
-[2020.02.01-14.43.52:891][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Scalability.ini]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Scalability.ini]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Scalability.ini]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Scalability.ini]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Scalability.ini]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.02.01-14.43.52:891][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.02.01-14.43.52:892][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.02.01-14.43.52:892][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.02.01-14.43.52:892][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.02.01-14.43.52:892][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Scalability.ini]
-[2020.02.01-14.43.52:892][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
-[2020.02.01-14.43.52:892][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.02.01-14.43.52:892][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2020.02.01-14.43.52:892][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
-[2020.02.01-14.43.52:892][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.02.01-14.43.52:892][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2020.02.01-14.43.52:892][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.02.01-14.43.52:892][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.02.01-14.43.52:892][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.02.01-14.43.52:892][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.02.01-14.43.52:892][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.02.01-14.43.52:892][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.02.01-14.43.52:892][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.02.01-14.43.52:892][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Scalability.ini]
-[2020.02.01-14.43.52:892][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.02.01-14.43.52:892][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.02.01-14.43.52:892][  0]LogInit: Selected Device Profile: [Windows]
-[2020.02.01-14.43.52:892][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.02.01-14.43.52:895][  0]LogHAL: Display: Platform has ~ 16 GB [17109598208 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.02.01-14.43.52:895][  0]LogInit: Going up to parent DeviceProfile []
-[2020.02.01-14.43.52:895][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Scalability.ini]
-[2020.02.01-14.43.52:895][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.02.01-14.43.52:895][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.02.01-14.43.52:895][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Scalability.ini]
-[2020.02.01-14.43.52:895][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
-[2020.02.01-14.43.52:895][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Scalability.ini]
-[2020.02.01-14.43.52:895][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.02.01-14.43.52:895][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.02.01-14.43.52:895][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.02.01-14.43.52:895][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.02.01-14.43.52:895][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.02.01-14.43.52:895][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.02.01-14.43.52:895][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.02.01-14.43.52:895][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.02.01-14.43.52:895][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.02.01-14.43.52:895][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.02.01-14.43.52:895][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.02.01-14.43.52:895][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.02.01-14.43.52:895][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.02.01-14.43.52:895][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.02.01-14.43.52:895][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.02.01-14.43.52:895][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.02.01-14.43.52:895][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.02.01-14.43.52:895][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.02.01-14.43.52:895][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Scalability.ini]
-[2020.02.01-14.43.52:895][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
-[2020.02.01-14.43.52:895][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.02.01-14.43.52:895][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.02.01-14.43.52:895][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
-[2020.02.01-14.43.52:895][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Scalability.ini]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Scalability.ini]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Scalability.ini]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.02.01-14.43.52:896][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Engine.ini]
-[2020.02.01-14.43.52:897][  0]LogInit: Computer: DESKTOP-HKFG4FJ
-[2020.02.01-14.43.52:897][  0]LogInit: User: Circu
-[2020.02.01-14.43.52:897][  0]LogInit: CPU Page size=4096, Cores=6
-[2020.02.01-14.43.52:897][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.02.01-14.43.52:897][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2020.02.01-14.43.52:897][  0]LogMemory: Platform Memory Stats for Windows
-[2020.02.01-14.43.52:897][  0]LogMemory: Process Physical Memory: 114.11 MB used, 114.12 MB peak
-[2020.02.01-14.43.52:897][  0]LogMemory: Process Virtual Memory: 106.87 MB used, 106.87 MB peak
-[2020.02.01-14.43.52:897][  0]LogMemory: Physical Memory: 10098.65 MB used,  6218.34 MB free, 16316.98 MB total
-[2020.02.01-14.43.52:897][  0]LogMemory: Virtual Memory: 4715.67 MB used,  134213016.00 MB free, 134217728.00 MB total
-[2020.02.01-14.43.52:902][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.02.01-14.43.52:928][  0]LogInit: Using OS detected language (en-US).
-[2020.02.01-14.43.52:928][  0]LogInit: Using OS detected locale (en-US).
-[2020.02.01-14.43.52:929][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.02.01-14.43.53:114][  0]LogInit: Setting process to per monitor DPI aware
-[2020.02.01-14.43.53:154][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.02.01-14.43.53:154][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.02.01-14.43.53:299][  0]LogD3D11RHI: D3D11 adapters:
-[2020.02.01-14.43.53:361][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2020.02.01-14.43.53:361][  0]LogD3D11RHI:       8088/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.02.01-14.43.53:364][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.02.01-14.43.53:364][  0]LogD3D11RHI:       0/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.02.01-14.43.53:364][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.02.01-14.43.53:378][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.02.01-14.43.53:378][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2020.02.01-14.43.53:378][  0]LogWindows: EnumDisplayDevices:
-[2020.02.01-14.43.53:378][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2020.02.01-14.43.53:378][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2020.02.01-14.43.53:378][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2020.02.01-14.43.53:378][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2020.02.01-14.43.53:379][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.02.01-14.43.53:379][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2020.02.01-14.43.53:379][  0]LogD3D11RHI:   Driver Version: 441.66 (internal:26.21.14.4166, unified:441.66)
-[2020.02.01-14.43.53:379][  0]LogD3D11RHI:      Driver Date: 12-6-2019
-[2020.02.01-14.43.53:379][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
-[2020.02.01-14.43.53:431][  0]LogD3D11RHI: Async texture creation enabled
-[2020.02.01-14.43.53:461][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.02.01-14.43.53:791][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2020.02.01-14.43.53:799][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2020.02.01-14.43.53:811][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2020.02.01-14.43.53:823][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2020.02.01-14.43.53:836][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2020.02.01-14.43.53:846][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2020.02.01-14.43.53:858][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2020.02.01-14.43.53:869][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2020.02.01-14.43.53:875][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2020.02.01-14.43.53:909][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2020.02.01-14.43.53:909][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2020.02.01-14.43.53:909][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2020.02.01-14.43.53:909][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2020.02.01-14.43.53:909][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2020.02.01-14.43.53:909][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2020.02.01-14.43.53:909][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2020.02.01-14.43.53:909][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2020.02.01-14.43.53:909][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2020.02.01-14.43.53:909][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2020.02.01-14.43.53:909][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2020.02.01-14.43.53:909][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2020.02.01-14.43.53:909][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2020.02.01-14.43.53:909][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2020.02.01-14.43.53:909][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2020.02.01-14.43.53:909][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2020.02.01-14.43.53:909][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2020.02.01-14.43.53:909][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2020.02.01-14.43.53:911][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2020.02.01-14.43.53:927][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2020.02.01-14.43.53:928][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2020.02.01-14.43.53:943][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2020.02.01-14.43.53:943][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2020.02.01-14.43.53:951][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2020.02.01-14.43.53:960][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2020.02.01-14.43.53:967][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2020.02.01-14.43.53:976][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2020.02.01-14.43.54:002][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2020.02.01-14.43.54:002][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2020.02.01-14.43.54:002][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.02.01-14.43.54:012][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.02.01-14.43.54:072][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Intermediate/Shaders/WorkingDirectory/14732/).
-[2020.02.01-14.43.54:072][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Circu/AppData/Local/Temp/UnrealShaderWorkingDir/71C478AC4C06293E11D765A048F5F565/'.
-[2020.02.01-14.43.54:074][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.02.01-14.43.54:074][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.02.01-14.43.54:074][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.02.01-14.43.54:614][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.02.01-14.43.54:694][  0]LogDerivedDataCache: Loaded boot cache 0.08s 79MB C:/Users/Circu/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2020.02.01-14.43.54:694][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Circu/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2020.02.01-14.43.54:695][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.02.01-14.43.54:695][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.02.01-14.43.54:695][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.02.01-14.43.54:695][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.02.01-14.43.54:705][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.02.01-14.43.54:705][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.02.01-14.43.54:705][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.02.01-14.43.54:707][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Circu/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.02.01-14.43.54:707][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.02.01-14.43.54:707][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.02.01-14.43.54:909][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.02.01-14.43.54:912][  0]LogSlate: Using FreeType 2.6.0
-[2020.02.01-14.43.54:912][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.02.01-14.43.54:966][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
-[2020.02.01-14.43.55:243][  0]LogInit: Selected Device Profile: [Windows]
-[2020.02.01-14.43.55:396][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.02.01-14.43.55:396][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.02.01-14.43.55:396][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.02.01-14.43.55:396][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.02.01-14.43.55:396][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.02.01-14.43.55:405][  0]LogNetVersion: GameJam2020 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 1723651246)
-[2020.02.01-14.43.56:007][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.061379 seconds
-[2020.02.01-14.43.56:015][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2020.02.01-14.43.56:015][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2020.02.01-14.43.56:015][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.02.01-14.43.56:984][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.02.01-14.43.56:988][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.02.01-14.43.57:069][  0]SourceControl: Source control is disabled
-[2020.02.01-14.43.58:061][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.02.01-14.43.58:289][  0]LogOcInput: OculusInput pre-init called
-[2020.02.01-14.43.58:890][  0]LogEngine: Initializing Engine...
-[2020.02.01-14.43.58:890][  0]LogHMD: Oculus plugin initialized. Version: 4.23.1-9631420+++UE4+Release-4.23, OVRPlugin: 1.37.0
-[2020.02.01-14.43.58:891][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.02.01-14.43.59:351][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.02.01-14.43.59:373][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.02.01-14.43.59:424][  0]LogInit: XAudio2 using 'Headphones (2- Rift S)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.02.01-14.43.59:441][  0]LogInit: FAudioDevice initialized.
-[2020.02.01-14.43.59:441][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.02.01-14.43.59:528][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/Circu/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2020.02.01-14.43.59:547][  0]LogInit: Texture streaming: Enabled
-[2020.02.01-14.43.59:573][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.02.01-14.43.59:573][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.02.01-14.43.59:573][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.02.01-14.43.59:640][  0]LogInit: Transaction tracking system initialized
-[2020.02.01-14.43.59:681][  0]BlueprintLog: New page: Editor Load
-[2020.02.01-14.43.59:773][  0]LocalizationService: Localization service is disabled
-[2020.02.01-14.44.00:148][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Content/' took 0.01s
-[2020.02.01-14.44.00:148][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.02.01-14.44.00:148][  0]LogCook: Display: Mobile HDR setting 1
-[2020.02.01-14.44.00:463][  0]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.02.01-14.45.46:083][  0]LogSlate: Window 'Restore Packages' being destroyed
-[2020.02.01-14.45.46:084][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.02.01-14.45.46:107][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.02.01-14.45.46:203][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.02.01-14.45.46:229][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.02.01-14.45.46:231][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.02.01-14.45.46:239][  0]LightingResults: New page: Lighting Build
-[2020.02.01-14.45.46:242][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.02.01-14.45.46:242][  0]MapCheck: New page: Map Check
-[2020.02.01-14.45.46:243][  0]LightingResults: New page: Lighting Build
-[2020.02.01-14.45.46:276][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
-[2020.02.01-14.45.46:676][  0]LogAIModule: Creating AISystem for world StartupMap
-[2020.02.01-14.45.46:693][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.02.01-14.45.46:727][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
-[2020.02.01-14.45.46:729][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.02.01-14.45.46:729][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.488ms to complete.
-[2020.02.01-14.45.46:730][  0]LogFileHelpers: Loading map 'StartupMap' took 0.499
-[2020.02.01-14.45.46:860][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.01-14.45.46:869][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.01-14.45.46:880][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.01-14.45.46:891][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.01-14.45.46:913][  0]LogCollectionManager: Loaded 0 collections in 0.002171 seconds
-[2020.02.01-14.45.46:939][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Collections/' took 0.00s
-[2020.02.01-14.45.46:939][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Content/Developers/Circu/Collections/' took 0.00s
-[2020.02.01-14.45.46:939][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Content/Collections/' took 0.00s
-[2020.02.01-14.45.46:939][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2020.02.01-14.45.46:951][  0]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2863 classes and 680 folders.
-[2020.02.01-14.45.46:966][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.02.01-14.45.47:307][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.02.01-14.45.47:323][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2020.02.01-14.45.47:344][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0005 seconds. Added 2 classes and 3 folders.
-[2020.02.01-14.45.47:497][  0]LogSlate: Took 0.000519 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.02.01-14.45.47:511][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.02.01-14.45.47:511][  0]LogLoad: (Engine Initialization) Total time: 115.79 seconds
-[2020.02.01-14.45.47:511][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.02.01-14.45.47:522][  0]LogOcInput: OculusInput is initialized
-[2020.02.01-14.45.47:579][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.02.01-14.45.47:589][  0]LogSlate: Took 0.005926 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.02.01-14.45.47:718][  0]LogRenderer: Reallocating scene render targets to support 780x380 Format 26 NumSamples 1 (Frame:1).
-[2020.02.01-14.45.47:718][  0]LogSlate: Took 0.010091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.02.01-14.45.48:055][  5]LogAssetRegistry: Asset discovery search completed in 113.0895 seconds
-[2020.02.01-14.45.48:061][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000007 seconds (found 0 objects)
-[2020.02.01-14.45.48:061][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000138 seconds (updated 0 objects)
-[2020.02.01-14.45.48:557][ 57]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.02.01-14.45.50:083][204]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.02.01-14.45.50:587][258]LogAIModule: Creating AISystem for world SpaceShip
-[2020.02.01-14.45.50:591][258]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/SpaceShip.SpaceShip
-[2020.02.01-14.45.50:621][258]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
-[2020.02.01-14.45.50:622][258]Cmd: MAP LOAD FILE="../../../../../../Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Content/Levels/SpaceShip.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.02.01-14.45.50:622][258]LightingResults: New page: Lighting Build
-[2020.02.01-14.45.50:623][258]LoadErrors: New page: Loading map: SpaceShip.umap
-[2020.02.01-14.45.50:623][258]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
-[2020.02.01-14.45.50:624][258]MapCheck: New page: Map Check
-[2020.02.01-14.45.50:624][258]LightingResults: New page: Lighting Build
-[2020.02.01-14.45.50:653][258]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
-[2020.02.01-14.45.50:655][258]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/XHallway) is flushing async loading
-[2020.02.01-14.45.50:655][258]LogStreaming: Display: Flushing async loaders.
-[2020.02.01-14.45.50:740][258]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room02) is flushing async loading
-[2020.02.01-14.45.50:810][258]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room01) is flushing async loading
-[2020.02.01-14.45.50:841][258]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/THallway) is flushing async loading
-[2020.02.01-14.45.50:844][258]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/LHallway) is flushing async loading
-[2020.02.01-14.45.50:848][258]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room03) is flushing async loading
-[2020.02.01-14.45.50:887][258]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room04) is flushing async loading
-[2020.02.01-14.45.50:921][258]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room05) is flushing async loading
-[2020.02.01-14.45.50:960][258]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room06) is flushing async loading
-[2020.02.01-14.45.50:995][258]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room07) is flushing async loading
-[2020.02.01-14.45.51:024][258]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Hallway) is flushing async loading
-[2020.02.01-14.45.51:094][258]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.02.01-14.45.51:122][258]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
-[2020.02.01-14.45.51:153][258]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.02.01-14.45.51:153][258]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.62ms to complete.
-[2020.02.01-14.45.51:153][258]LogFileHelpers: Loading map 'SpaceShip' took 0.532
-[2020.02.01-14.45.56:995][922]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Levels/SpaceShip.SpaceShip:PersistentLevel.SpaceShip
-[2020.02.01-14.45.57:353][922]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 121 classes and 0 folders.
-[2020.02.01-14.45.58:122][922]LogSlate: Took 0.001021 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.02.01-14.45.59:088][  1]LogSlate: Took 0.000953 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.02.01-14.46.47:829][379]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={5A7B5E41-4F3B-81C1-926A-94AEB5C9C9D6}
-[2020.02.01-14.47.48:131][260]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.23/Engine/Content: 'C:/Program Files/Epic Games/UE_4.23/Engine/Content' is outside repository
-[2020.02.01-14.47.48:236][260]LogPackageName: Error: Illegal call to DoesPackageExist: '../../../../../../Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/GameJam2020.uproject' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
-[2020.02.01-14.47.48:237][260]LogOutputDevice: Warning: 
-
-Script Stack (0 frames):
-
-[2020.02.01-14.47.48:537][260]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.301 s
-[2020.02.01-14.47.48:538][260]LogOutputDevice: Error: === Handled ensure: ===
-[2020.02.01-14.47.48:538][260]LogOutputDevice: Error: 
-[2020.02.01-14.47.48:538][260]LogOutputDevice: Error: Ensure condition failed: false [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/CoreUObject/Private/Misc/PackageName.cpp] [Line: 849]
-[2020.02.01-14.47.48:538][260]LogOutputDevice: Error: Illegal call to DoesPackageExist: '../../../../../../Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/GameJam2020.uproject' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
-[2020.02.01-14.47.48:538][260]LogOutputDevice: Error: Stack: 
-[2020.02.01-14.47.48:538][260]LogOutputDevice: Error: [Callstack] 0x00007ffc5fb567c7 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2020.02.01-14.47.48:538][260]LogOutputDevice: Error: [Callstack] 0x00007ffc5f7bd51b UE4Editor-CoreUObject.dll!UnknownFunction []
-[2020.02.01-14.47.48:538][260]LogOutputDevice: Error: [Callstack] 0x00007ffc7b5f62e5 UE4Editor-SourceControl.dll!UnknownFunction []
-[2020.02.01-14.47.48:538][260]LogOutputDevice: Error: [Callstack] 0x00007ffc7b5f643c UE4Editor-SourceControl.dll!UnknownFunction []
-[2020.02.01-14.47.48:538][260]LogOutputDevice: Error: [Callstack] 0x00007ffc582de605 UE4Editor-SourceControlWindows.dll!UnknownFunction []
-[2020.02.01-14.47.48:538][260]LogOutputDevice: Error: [Callstack] 0x00007ffc582999dd UE4Editor-SourceControlWindows.dll!UnknownFunction []
-[2020.02.01-14.47.48:538][260]LogOutputDevice: Error: [Callstack] 0x00007ffc5829922a UE4Editor-SourceControlWindows.dll!UnknownFunction []
-[2020.02.01-14.47.48:538][260]LogOutputDevice: Error: [Callstack] 0x00007ffc582b0246 UE4Editor-SourceControlWindows.dll!UnknownFunction []
-[2020.02.01-14.47.48:538][260]LogOutputDevice: Error: [Callstack] 0x00007ffc253cb363 UE4Editor-GitSourceControl.dll!UnknownFunction []
-[2020.02.01-14.47.48:538][260]LogOutputDevice: Error: [Callstack] 0x00007ffc253cfe01 UE4Editor-GitSourceControl.dll!UnknownFunction []
-[2020.02.01-14.47.48:538][260]LogOutputDevice: Error: [Callstack] 0x00007ffc7b5fae09 UE4Editor-SourceControl.dll!UnknownFunction []
-[2020.02.01-14.47.48:538][260]LogOutputDevice: Error: [Callstack] 0x00007ffc5994e85d UE4Editor-UnrealEd.dll!UnknownFunction []
-[2020.02.01-14.47.48:538][260]LogOutputDevice: Error: [Callstack] 0x00007ffc5a1a5296 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2020.02.01-14.47.48:538][260]LogOutputDevice: Error: [Callstack] 0x00007ff64fa77b0a UE4Editor.exe!UnknownFunction []
-[2020.02.01-14.47.48:538][260]LogOutputDevice: Error: [Callstack] 0x00007ff64fa8a91c UE4Editor.exe!UnknownFunction []
-[2020.02.01-14.47.48:538][260]LogOutputDevice: Error: [Callstack] 0x00007ff64fa8a9fa UE4Editor.exe!UnknownFunction []
-[2020.02.01-14.47.48:538][260]LogOutputDevice: Error: [Callstack] 0x00007ff64fa9b92c UE4Editor.exe!UnknownFunction []
-[2020.02.01-14.47.48:538][260]LogOutputDevice: Error: [Callstack] 0x00007ff64fa9e60e UE4Editor.exe!UnknownFunction []
-[2020.02.01-14.47.48:538][260]LogOutputDevice: Error: [Callstack] 0x00007ffcd62b7bd4 KERNEL32.DLL!UnknownFunction []
-[2020.02.01-14.47.48:538][260]LogOutputDevice: Error: [Callstack] 0x00007ffcd66eced1 ntdll.dll!UnknownFunction []
-[2020.02.01-14.47.48:538][260]LogOutputDevice: Error: 
-[2020.02.01-14.47.48:549][260]LogStats:                SubmitErrorReport -  0.000 s
-[2020.02.01-14.47.49:262][260]LogStats:                    SendNewReport -  0.713 s
-[2020.02.01-14.47.49:262][260]LogStats:             FDebug::EnsureFailed -  1.026 s
-[2020.02.01-14.47.51:857][260]LogSlate: Window 'Submit Files' being destroyed
-[2020.02.01-14.47.58:967][ 81]SourceControl: Source control is disabled
-[2020.02.01-14.47.58:968][ 81]LogSlate: Window 'Source Control Login' being destroyed
-[2020.02.01-14.48.02:134][452]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/SpaceShip.SpaceShip
-[2020.02.01-14.48.02:174][452]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Engine.ini]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[r.HZBOcclusion:0]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[r.SSR.MaxRoughness:0]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[r.rhicmdbypass:0]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Engine.ini]
+[2020.02.01-15.07.04:586][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Engine.ini]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Engine.ini]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.02.01-15.07.04:586][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Engine.ini]
+[2020.02.01-15.07.04:586][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Engine.ini]
+[2020.02.01-15.07.04:588][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Scalability.ini]
+[2020.02.01-15.07.04:588][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.01-15.07.04:588][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.01-15.07.04:588][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Scalability.ini]
+[2020.02.01-15.07.04:588][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2020.02.01-15.07.04:588][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Scalability.ini]
+[2020.02.01-15.07.04:588][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.01-15.07.04:588][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.01-15.07.04:588][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.01-15.07.04:588][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.01-15.07.04:588][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.01-15.07.04:588][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.01-15.07.04:588][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Scalability.ini]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Scalability.ini]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Scalability.ini]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Scalability.ini]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.01-15.07.04:589][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.01-15.07.04:590][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.01-15.07.04:590][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.02.01-15.07.04:592][  0]LogHAL: Display: Platform has ~ 16 GB [17109598208 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.02.01-15.07.04:592][  0]LogInit: Going up to parent DeviceProfile []
+[2020.02.01-15.07.04:592][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Scalability.ini]
+[2020.02.01-15.07.04:592][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.01-15.07.04:592][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.01-15.07.04:592][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Scalability.ini]
+[2020.02.01-15.07.04:592][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2020.02.01-15.07.04:592][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Scalability.ini]
+[2020.02.01-15.07.04:592][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.01-15.07.04:592][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.01-15.07.04:592][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.01-15.07.04:592][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.01-15.07.04:592][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.01-15.07.04:592][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.01-15.07.04:592][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.01-15.07.04:592][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.01-15.07.04:592][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.01-15.07.04:592][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.01-15.07.04:592][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.01-15.07.04:592][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.01-15.07.04:592][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.01-15.07.04:592][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.01-15.07.04:592][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Scalability.ini]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Scalability.ini]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Scalability.ini]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Scalability.ini]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.02.01-15.07.04:593][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Engine.ini]
+[2020.02.01-15.07.04:593][  0]LogInit: Computer: DESKTOP-HKFG4FJ
+[2020.02.01-15.07.04:593][  0]LogInit: User: Circu
+[2020.02.01-15.07.04:593][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.02.01-15.07.04:593][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.02.01-15.07.04:594][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.02.01-15.07.04:594][  0]LogMemory: Platform Memory Stats for Windows
+[2020.02.01-15.07.04:594][  0]LogMemory: Process Physical Memory: 108.94 MB used, 108.95 MB peak
+[2020.02.01-15.07.04:594][  0]LogMemory: Process Virtual Memory: 96.45 MB used, 96.45 MB peak
+[2020.02.01-15.07.04:594][  0]LogMemory: Physical Memory: 9395.20 MB used,  6921.78 MB free, 16316.98 MB total
+[2020.02.01-15.07.04:594][  0]LogMemory: Virtual Memory: 4704.67 MB used,  134213024.00 MB free, 134217728.00 MB total
+[2020.02.01-15.07.04:596][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.02.01-15.07.04:617][  0]LogInit: Using OS detected language (en-US).
+[2020.02.01-15.07.04:618][  0]LogInit: Using OS detected locale (en-US).
+[2020.02.01-15.07.04:618][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.02.01-15.07.04:804][  0]LogInit: Setting process to per monitor DPI aware
+[2020.02.01-15.07.04:846][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.02.01-15.07.04:846][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.02.01-15.07.04:987][  0]LogD3D11RHI: D3D11 adapters:
+[2020.02.01-15.07.05:043][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.02.01-15.07.05:043][  0]LogD3D11RHI:       8088/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.02.01-15.07.05:045][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.02.01-15.07.05:045][  0]LogD3D11RHI:       0/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.02.01-15.07.05:045][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.02.01-15.07.05:058][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.02.01-15.07.05:059][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2020.02.01-15.07.05:059][  0]LogWindows: EnumDisplayDevices:
+[2020.02.01-15.07.05:059][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.02.01-15.07.05:059][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.02.01-15.07.05:060][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.02.01-15.07.05:060][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.02.01-15.07.05:060][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.02.01-15.07.05:060][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.02.01-15.07.05:060][  0]LogD3D11RHI:   Driver Version: 441.66 (internal:26.21.14.4166, unified:441.66)
+[2020.02.01-15.07.05:060][  0]LogD3D11RHI:      Driver Date: 12-6-2019
+[2020.02.01-15.07.05:060][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2020.02.01-15.07.05:110][  0]LogD3D11RHI: Async texture creation enabled
+[2020.02.01-15.07.05:148][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.02.01-15.07.05:487][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.02.01-15.07.05:498][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.02.01-15.07.05:508][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.02.01-15.07.05:519][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.02.01-15.07.05:529][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.02.01-15.07.05:539][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.02.01-15.07.05:549][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.02.01-15.07.05:558][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.02.01-15.07.05:564][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.02.01-15.07.05:604][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.02.01-15.07.05:604][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.02.01-15.07.05:604][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.02.01-15.07.05:604][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.02.01-15.07.05:604][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.02.01-15.07.05:604][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.02.01-15.07.05:604][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.02.01-15.07.05:604][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.02.01-15.07.05:604][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.02.01-15.07.05:604][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.02.01-15.07.05:604][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.02.01-15.07.05:604][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.02.01-15.07.05:604][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.02.01-15.07.05:604][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.02.01-15.07.05:604][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.02.01-15.07.05:604][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.02.01-15.07.05:604][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.02.01-15.07.05:604][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.02.01-15.07.05:606][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.02.01-15.07.05:621][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.02.01-15.07.05:621][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.02.01-15.07.05:634][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.02.01-15.07.05:634][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.02.01-15.07.05:642][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.02.01-15.07.05:648][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.02.01-15.07.05:656][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.02.01-15.07.05:665][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.02.01-15.07.05:693][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.02.01-15.07.05:693][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.02.01-15.07.05:693][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.02.01-15.07.05:702][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.02.01-15.07.05:756][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Intermediate/Shaders/WorkingDirectory/8672/).
+[2020.02.01-15.07.05:757][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Circu/AppData/Local/Temp/UnrealShaderWorkingDir/FAB90F3A45F88FD39B46549829A32FB0/'.
+[2020.02.01-15.07.05:759][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.02.01-15.07.05:759][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.02.01-15.07.05:759][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.02.01-15.07.06:319][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.02.01-15.07.06:414][  0]LogDerivedDataCache: Loaded boot cache 0.09s 93MB C:/Users/Circu/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.02.01-15.07.06:415][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Circu/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2020.02.01-15.07.06:415][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.02.01-15.07.06:415][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.02.01-15.07.06:415][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.01-15.07.06:415][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.02.01-15.07.06:425][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.02.01-15.07.06:425][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.01-15.07.06:425][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.02.01-15.07.06:428][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Circu/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.02.01-15.07.06:428][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.02.01-15.07.06:428][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.02.01-15.07.06:452][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.02.01-15.07.06:455][  0]LogSlate: Using FreeType 2.6.0
+[2020.02.01-15.07.06:455][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.02.01-15.07.06:511][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
+[2020.02.01-15.07.06:768][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.01-15.07.06:911][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.02.01-15.07.06:911][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.02.01-15.07.06:911][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.02.01-15.07.06:911][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.02.01-15.07.06:911][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.02.01-15.07.06:920][  0]LogNetVersion: GameJam2020 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 1723651246)
+[2020.02.01-15.07.07:345][  0]LogPackageLocalizationCache: Processed 13 localized package path(s) for 1 prioritized culture(s) in 0.061623 seconds
+[2020.02.01-15.07.07:353][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2020.02.01-15.07.07:353][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2020.02.01-15.07.07:353][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.02.01-15.07.08:129][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.02.01-15.07.08:132][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.02.01-15.07.08:166][  0]LogSteamAudio: FSteamAudioModule Startup
+[2020.02.01-15.07.08:166][  0]LogSteamAudio: Display: Attempting to load ../../../Engine/Binaries/ThirdParty/Phonon/Win64/tanrt64.dll
+[2020.02.01-15.07.08:232][  0]LogSteamAudio: Display: Loaded ../../../Engine/Binaries/ThirdParty/Phonon/Win64/tanrt64.dll.
+[2020.02.01-15.07.08:232][  0]LogSteamAudio: Display: Attempting to load ../../../Engine/Binaries/ThirdParty/Phonon/Win64/GPUUtilities.dll
+[2020.02.01-15.07.08:245][  0]LogSteamAudio: Display: Loaded ../../../Engine/Binaries/ThirdParty/Phonon/Win64/GPUUtilities.dll.
+[2020.02.01-15.07.08:245][  0]LogSteamAudio: Display: Attempting to load ../../../Engine/Binaries/ThirdParty/Phonon/Win64/phonon.dll
+[2020.02.01-15.07.08:279][  0]LogSteamAudio: Display: Loaded ../../../Engine/Binaries/ThirdParty/Phonon/Win64/phonon.dll.
+[2020.02.01-15.07.08:313][  0]SourceControl: Source control is disabled
+[2020.02.01-15.07.08:313][  0]SourceControl: Source control is disabled
+[2020.02.01-15.07.08:315][  0]SourceControl: Source control is disabled
+[2020.02.01-15.07.08:317][  0]SourceControl: Source control is disabled
+[2020.02.01-15.07.08:418][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.02.01-15.07.08:637][  0]LogOcInput: OculusInput pre-init called
+[2020.02.01-15.07.09:174][  0]LogEngine: Initializing Engine...
+[2020.02.01-15.07.09:174][  0]LogHMD: Oculus plugin initialized. Version: 4.23.1-9631420+++UE4+Release-4.23, OVRPlugin: 1.37.0
+[2020.02.01-15.07.09:175][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.02.01-15.07.09:424][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.02.01-15.07.09:444][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.02.01-15.07.09:499][  0]LogInit: XAudio2 using 'Headphones (2- Rift S)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.01-15.07.09:516][  0]LogInit: FAudioDevice initialized.
+[2020.02.01-15.07.09:516][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.02.01-15.07.09:601][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/Circu/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.02.01-15.07.09:609][  0]LogInit: Texture streaming: Enabled
+[2020.02.01-15.07.09:631][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.02.01-15.07.09:631][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.02.01-15.07.09:632][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.02.01-15.07.09:696][  0]LogInit: Transaction tracking system initialized
+[2020.02.01-15.07.09:727][  0]BlueprintLog: New page: Editor Load
+[2020.02.01-15.07.09:810][  0]LocalizationService: Localization service is disabled
+[2020.02.01-15.07.10:049][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Content/' took 0.01s
+[2020.02.01-15.07.10:049][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.02.01-15.07.10:049][  0]LogCook: Display: Mobile HDR setting 1
+[2020.02.01-15.07.10:257][  0]SourceControl: Source control is disabled
+[2020.02.01-15.07.10:257][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.01-15.07.10:258][  0]LightingResults: New page: Lighting Build
+[2020.02.01-15.07.10:260][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-15.07.10:260][  0]MapCheck: New page: Map Check
+[2020.02.01-15.07.10:260][  0]LightingResults: New page: Lighting Build
+[2020.02.01-15.07.10:285][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2020.02.01-15.07.10:367][  0]LogAIModule: Creating AISystem for world StartupMap
+[2020.02.01-15.07.10:373][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.01-15.07.10:407][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
+[2020.02.01-15.07.10:407][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.01-15.07.10:408][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.225ms to complete.
+[2020.02.01-15.07.10:408][  0]LogFileHelpers: Loading map 'StartupMap' took 0.150
+[2020.02.01-15.07.10:531][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.01-15.07.10:537][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.01-15.07.10:546][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.01-15.07.10:555][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.01-15.07.10:561][  0]LogCollectionManager: Loaded 0 collections in 0.001673 seconds
+[2020.02.01-15.07.10:569][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Collections/' took 0.00s
+[2020.02.01-15.07.10:569][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Content/Developers/Circu/Collections/' took 0.00s
+[2020.02.01-15.07.10:569][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Content/Collections/' took 0.00s
+[2020.02.01-15.07.10:569][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2020.02.01-15.07.10:579][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2876 classes and 686 folders.
+[2020.02.01-15.07.10:585][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.02.01-15.07.10:625][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.02.01-15.07.10:634][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.02.01-15.07.10:644][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0002 seconds. Added 2 classes and 3 folders.
+[2020.02.01-15.07.10:705][  0]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.01-15.07.10:706][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.01-15.07.10:718][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.02.01-15.07.10:718][  0]LogLoad: (Engine Initialization) Total time: 7.21 seconds
+[2020.02.01-15.07.10:718][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.02.01-15.07.10:731][  0]LogOcInput: OculusInput is initialized
+[2020.02.01-15.07.10:774][  0]LogAssetRegistry: Asset discovery search completed in 4.2647 seconds
+[2020.02.01-15.07.10:780][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2020.02.01-15.07.10:780][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000073 seconds (updated 0 objects)
+[2020.02.01-15.07.10:781][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.02.01-15.07.10:792][  0]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.01-15.07.10:836][  0]LogRenderer: Reallocating scene render targets to support 780x380 Format 26 NumSamples 1 (Frame:1).
+[2020.02.01-15.07.10:836][  0]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.01-15.07.12:947][237]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.01-15.07.13:135][259]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.01-15.07.13:182][259]LogAIModule: Creating AISystem for world SpaceShip
+[2020.02.01-15.07.13:187][259]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/SpaceShip.SpaceShip
+[2020.02.01-15.07.13:212][259]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2020.02.01-15.07.13:213][259]Cmd: MAP LOAD FILE="../../../../../../Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Content/Levels/SpaceShip.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.01-15.07.13:214][259]LightingResults: New page: Lighting Build
+[2020.02.01-15.07.13:214][259]LoadErrors: New page: Loading map: SpaceShip.umap
+[2020.02.01-15.07.13:215][259]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-15.07.13:215][259]MapCheck: New page: Map Check
+[2020.02.01-15.07.13:216][259]LightingResults: New page: Lighting Build
+[2020.02.01-15.07.13:244][259]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2020.02.01-15.07.13:245][259]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/XHallway) is flushing async loading
+[2020.02.01-15.07.13:245][259]LogStreaming: Display: Flushing async loaders.
+[2020.02.01-15.07.13:281][259]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room02) is flushing async loading
+[2020.02.01-15.07.13:302][259]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room01) is flushing async loading
+[2020.02.01-15.07.13:314][259]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/THallway) is flushing async loading
+[2020.02.01-15.07.13:316][259]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/LHallway) is flushing async loading
+[2020.02.01-15.07.13:318][259]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room03) is flushing async loading
+[2020.02.01-15.07.13:330][259]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room04) is flushing async loading
+[2020.02.01-15.07.13:343][259]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room05) is flushing async loading
+[2020.02.01-15.07.13:358][259]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room06) is flushing async loading
+[2020.02.01-15.07.13:374][259]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room07) is flushing async loading
+[2020.02.01-15.07.13:390][259]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Hallway) is flushing async loading
+[2020.02.01-15.07.13:461][259]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.01-15.07.13:489][259]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2020.02.01-15.07.13:519][259]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.01-15.07.13:520][259]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.654ms to complete.
+[2020.02.01-15.07.13:520][259]LogFileHelpers: Loading map 'SpaceShip' took 0.307
+[2020.02.01-15.07.17:918][767]LogRenderer: Reallocating scene render targets to support 1176x608 Format 26 NumSamples 1 (Frame:496).
+[2020.02.01-15.15.11:943][427]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={844A84E1-41C9-671D-E543-91A5A3FA3498}
+[2020.02.01-15.17.12:014][783]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={E41C1222-4F80-0050-CFBE-5B8B365A2907}
+[2020.02.01-15.20.29:594][ 37]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/SpaceShip.SpaceShip
+[2020.02.01-15.20.29:621][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.02.01-15.20.29:623][ 37]Cmd: MAP LOAD FILE="../../../../../../Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Content/Levels/SpaceShip.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.01-15.20.29:623][ 37]LightingResults: New page: Lighting Build
+[2020.02.01-15.20.29:624][ 37]LoadErrors: New page: Loading map: SpaceShip.umap
+[2020.02.01-15.20.29:625][ 37]LogWorld: UWorld::CleanupWorld for SpaceShip, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-15.20.29:626][ 37]LogWorld: UWorld::CleanupWorld for XHallway, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-15.20.29:626][ 37]LogWorld: UWorld::CleanupWorld for Room02, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-15.20.29:626][ 37]LogWorld: UWorld::CleanupWorld for Room01, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-15.20.29:626][ 37]LogWorld: UWorld::CleanupWorld for THallway, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-15.20.29:626][ 37]LogWorld: UWorld::CleanupWorld for LHallway, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-15.20.29:626][ 37]LogWorld: UWorld::CleanupWorld for Room03, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-15.20.29:626][ 37]LogWorld: UWorld::CleanupWorld for Room04, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-15.20.29:627][ 37]LogWorld: UWorld::CleanupWorld for Room05, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-15.20.29:627][ 37]LogWorld: UWorld::CleanupWorld for Room06, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-15.20.29:627][ 37]LogWorld: UWorld::CleanupWorld for Room07, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-15.20.29:627][ 37]LogWorld: UWorld::CleanupWorld for Hallway, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-15.20.29:629][ 37]MapCheck: New page: Map Check
+[2020.02.01-15.20.29:629][ 37]LightingResults: New page: Lighting Build
+[2020.02.01-15.20.29:658][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2020.02.01-15.20.29:675][ 37]LogAIModule: Creating AISystem for world SpaceShip
+[2020.02.01-15.20.29:676][ 37]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/XHallway) is flushing async loading
+[2020.02.01-15.20.29:676][ 37]LogStreaming: Display: Flushing async loaders.
+[2020.02.01-15.20.29:679][ 37]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room02) is flushing async loading
+[2020.02.01-15.20.29:681][ 37]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room06) is flushing async loading
+[2020.02.01-15.20.29:683][ 37]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room07) is flushing async loading
+[2020.02.01-15.20.29:685][ 37]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Hallway) is flushing async loading
+[2020.02.01-15.20.29:688][ 37]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room04) is flushing async loading
+[2020.02.01-15.20.29:691][ 37]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room05) is flushing async loading
+[2020.02.01-15.20.29:694][ 37]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room01) is flushing async loading
+[2020.02.01-15.20.29:696][ 37]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/THallway) is flushing async loading
+[2020.02.01-15.20.29:700][ 37]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/LHallway) is flushing async loading
+[2020.02.01-15.20.29:703][ 37]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room03) is flushing async loading
+[2020.02.01-15.20.29:800][ 37]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.01-15.20.29:831][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2020.02.01-15.20.29:859][ 37]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.01-15.20.29:860][ 37]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.882ms to complete.
+[2020.02.01-15.20.29:862][ 37]LogFileHelpers: Loading map 'SpaceShip' took 0.240
+[2020.02.01-15.20.29:920][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.02.01-15.24.40:642][460]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/SpaceShip.SpaceShip
+[2020.02.01-15.24.40:667][460]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2020.02.01-15.24.40:668][460]Cmd: MAP LOAD FILE="../../../../../../Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Content/Levels/SpaceShip.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.01-15.24.40:669][460]LightingResults: New page: Lighting Build
+[2020.02.01-15.24.40:669][460]LoadErrors: New page: Loading map: SpaceShip.umap
+[2020.02.01-15.24.40:669][460]LogWorld: UWorld::CleanupWorld for SpaceShip, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-15.24.40:670][460]LogWorld: UWorld::CleanupWorld for XHallway, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-15.24.40:670][460]LogWorld: UWorld::CleanupWorld for Room02, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-15.24.40:670][460]LogWorld: UWorld::CleanupWorld for Room06, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-15.24.40:670][460]LogWorld: UWorld::CleanupWorld for Room07, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-15.24.40:670][460]LogWorld: UWorld::CleanupWorld for Hallway, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-15.24.40:671][460]LogWorld: UWorld::CleanupWorld for Room04, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-15.24.40:671][460]LogWorld: UWorld::CleanupWorld for Room05, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-15.24.40:671][460]LogWorld: UWorld::CleanupWorld for Room01, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-15.24.40:671][460]LogWorld: UWorld::CleanupWorld for THallway, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-15.24.40:671][460]LogWorld: UWorld::CleanupWorld for LHallway, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-15.24.40:671][460]LogWorld: UWorld::CleanupWorld for Room03, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-15.24.40:672][460]MapCheck: New page: Map Check
+[2020.02.01-15.24.40:672][460]LightingResults: New page: Lighting Build
+[2020.02.01-15.24.40:699][460]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.02.01-15.24.40:714][460]LogAIModule: Creating AISystem for world SpaceShip
+[2020.02.01-15.24.40:715][460]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Hallway) is flushing async loading
+[2020.02.01-15.24.40:715][460]LogStreaming: Display: Flushing async loaders.
+[2020.02.01-15.24.40:718][460]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room06) is flushing async loading
+[2020.02.01-15.24.40:720][460]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room07) is flushing async loading
+[2020.02.01-15.24.40:724][460]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/THallway) is flushing async loading
+[2020.02.01-15.24.40:726][460]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room04) is flushing async loading
+[2020.02.01-15.24.40:729][460]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room05) is flushing async loading
+[2020.02.01-15.24.40:732][460]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/LHallway) is flushing async loading
+[2020.02.01-15.24.40:734][460]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room03) is flushing async loading
+[2020.02.01-15.24.40:737][460]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room01) is flushing async loading
+[2020.02.01-15.24.40:739][460]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/XHallway) is flushing async loading
+[2020.02.01-15.24.40:741][460]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room02) is flushing async loading
+[2020.02.01-15.24.40:859][460]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.01-15.24.40:887][460]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.02.01-15.24.40:916][460]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.01-15.24.40:917][460]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.645ms to complete.
+[2020.02.01-15.24.40:918][460]LogFileHelpers: Loading map 'SpaceShip' took 0.251
+[2020.02.01-15.24.40:979][460]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2020.02.01-15.24.44:019][792]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Levels/SpaceShip.SpaceShip:PersistentLevel.SpaceShip
+[2020.02.01-15.24.44:273][792]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2020.02.01-15.24.45:045][792]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
