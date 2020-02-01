@@ -1,5 +1,5 @@
 # GameJam2020
-###### Developed with Unreal Engine 4
+###### Developed with Unreal Engine 4.23.1
 
 ## The following plugins, and software is required to run and build the project on your machine:
 ###### Software:
