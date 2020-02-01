@@ -504,3 +504,80 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.02.01-14.44.00:148][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
 [2020.02.01-14.44.00:148][  0]LogCook: Display: Mobile HDR setting 1
 [2020.02.01-14.44.00:463][  0]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.01-14.45.46:083][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2020.02.01-14.45.46:084][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.02.01-14.45.46:107][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.02.01-14.45.46:203][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.02.01-14.45.46:229][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.02.01-14.45.46:231][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.01-14.45.46:239][  0]LightingResults: New page: Lighting Build
+[2020.02.01-14.45.46:242][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-14.45.46:242][  0]MapCheck: New page: Map Check
+[2020.02.01-14.45.46:243][  0]LightingResults: New page: Lighting Build
+[2020.02.01-14.45.46:276][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2020.02.01-14.45.46:676][  0]LogAIModule: Creating AISystem for world StartupMap
+[2020.02.01-14.45.46:693][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.01-14.45.46:727][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2020.02.01-14.45.46:729][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.01-14.45.46:729][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.488ms to complete.
+[2020.02.01-14.45.46:730][  0]LogFileHelpers: Loading map 'StartupMap' took 0.499
+[2020.02.01-14.45.46:860][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.01-14.45.46:869][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.01-14.45.46:880][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.01-14.45.46:891][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.01-14.45.46:913][  0]LogCollectionManager: Loaded 0 collections in 0.002171 seconds
+[2020.02.01-14.45.46:939][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Saved/Collections/' took 0.00s
+[2020.02.01-14.45.46:939][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Content/Developers/Circu/Collections/' took 0.00s
+[2020.02.01-14.45.46:939][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Content/Collections/' took 0.00s
+[2020.02.01-14.45.46:939][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2020.02.01-14.45.46:951][  0]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2863 classes and 680 folders.
+[2020.02.01-14.45.46:966][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.02.01-14.45.47:307][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.02.01-14.45.47:323][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2020.02.01-14.45.47:344][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2020.02.01-14.45.47:497][  0]LogSlate: Took 0.000519 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.01-14.45.47:511][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.02.01-14.45.47:511][  0]LogLoad: (Engine Initialization) Total time: 115.79 seconds
+[2020.02.01-14.45.47:511][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.02.01-14.45.47:522][  0]LogOcInput: OculusInput is initialized
+[2020.02.01-14.45.47:579][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.02.01-14.45.47:589][  0]LogSlate: Took 0.005926 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.01-14.45.47:718][  0]LogRenderer: Reallocating scene render targets to support 780x380 Format 26 NumSamples 1 (Frame:1).
+[2020.02.01-14.45.47:718][  0]LogSlate: Took 0.010091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.01-14.45.48:055][  5]LogAssetRegistry: Asset discovery search completed in 113.0895 seconds
+[2020.02.01-14.45.48:061][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000007 seconds (found 0 objects)
+[2020.02.01-14.45.48:061][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000138 seconds (updated 0 objects)
+[2020.02.01-14.45.48:557][ 57]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.01-14.45.50:083][204]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.01-14.45.50:587][258]LogAIModule: Creating AISystem for world SpaceShip
+[2020.02.01-14.45.50:591][258]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/SpaceShip.SpaceShip
+[2020.02.01-14.45.50:621][258]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2020.02.01-14.45.50:622][258]Cmd: MAP LOAD FILE="../../../../../../Users/Circu/Documents/GitHub/GameJam2020/GameJam2020/Content/Levels/SpaceShip.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.01-14.45.50:622][258]LightingResults: New page: Lighting Build
+[2020.02.01-14.45.50:623][258]LoadErrors: New page: Loading map: SpaceShip.umap
+[2020.02.01-14.45.50:623][258]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2020.02.01-14.45.50:624][258]MapCheck: New page: Map Check
+[2020.02.01-14.45.50:624][258]LightingResults: New page: Lighting Build
+[2020.02.01-14.45.50:653][258]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2020.02.01-14.45.50:655][258]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/XHallway) is flushing async loading
+[2020.02.01-14.45.50:655][258]LogStreaming: Display: Flushing async loaders.
+[2020.02.01-14.45.50:740][258]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room02) is flushing async loading
+[2020.02.01-14.45.50:810][258]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room01) is flushing async loading
+[2020.02.01-14.45.50:841][258]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/THallway) is flushing async loading
+[2020.02.01-14.45.50:844][258]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/LHallway) is flushing async loading
+[2020.02.01-14.45.50:848][258]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room03) is flushing async loading
+[2020.02.01-14.45.50:887][258]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room04) is flushing async loading
+[2020.02.01-14.45.50:921][258]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room05) is flushing async loading
+[2020.02.01-14.45.50:960][258]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room06) is flushing async loading
+[2020.02.01-14.45.50:995][258]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Room07) is flushing async loading
+[2020.02.01-14.45.51:024][258]LogStreaming: Display: ULevelStreaming::RequestLevel(/Game/Procedural/Hallway) is flushing async loading
+[2020.02.01-14.45.51:094][258]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.01-14.45.51:122][258]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2020.02.01-14.45.51:153][258]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.01-14.45.51:153][258]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.62ms to complete.
+[2020.02.01-14.45.51:153][258]LogFileHelpers: Loading map 'SpaceShip' took 0.532
+[2020.02.01-14.45.56:995][922]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Levels/SpaceShip.SpaceShip:PersistentLevel.SpaceShip
+[2020.02.01-14.45.57:353][922]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 121 classes and 0 folders.
+[2020.02.01-14.45.58:122][922]LogSlate: Took 0.001021 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.02.01-14.45.59:088][  1]LogSlate: Took 0.000953 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.02.01-14.46.47:829][379]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={5A7B5E41-4F3B-81C1-926A-94AEB5C9C9D6}
