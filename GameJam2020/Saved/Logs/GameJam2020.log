@@ -1694,3 +1694,4 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.02.02-21.27.39:022][308]LogFileHelpers: Loading map 'Room03' took 0.072
 [2020.02.02-21.27.41:676][622]Cmd: SELECT NONE
 [2020.02.02-21.27.42:324][699]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-21.30.55:078][541]LogSlate: FSceneViewport::OnFocusLost() reason 0
