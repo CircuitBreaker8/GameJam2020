@@ -1391,3 +1391,306 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.02.02-20.58.55:562][467]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
 [2020.02.02-20.58.55:672][467]LogSavePackage: Moving '../../../../../../Users/usman.baig/Documents/GitHub/GameJam2020/GameJam2020/Saved/Hallway_2A088B293464B49A0DC799EB7EB4C93CD.tmp' to '../../../../../../Users/usman.baig/Documents/GitHub/GameJam2020/GameJam2020/Content/Procedural/Hallway_2.umap'
 [2020.02.02-20.58.59:122][875]LogEditorViewport: Clicking Background
+[2020.02.02-20.59.51:957][570]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Wall_A_2)
+[2020.02.02-20.59.53:224][718]Cmd: DELETE
+[2020.02.02-20.59.53:224][718]Cmd: ACTOR DELETE
+[2020.02.02-20.59.53:229][718]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-20.59.53:269][718]LogAIModule: Creating AISystem for world SpaceShip
+[2020.02.02-20.59.53:275][718]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.02.02-20.59.53:302][718]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.02.02-20.59.53:302][718]LogEditorActor: Deleted 1 Actors (0.078 secs)
+[2020.02.02-21.00.00:374][566]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1M_Cube2)
+[2020.02.02-21.00.02:603][829]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.02.02-21.00.02:603][829]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.02.02-21.00.02:603][829]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.02.02-21.00.02:603][829]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.02.02-21.00.02:603][829]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.02.02-21.00.02:604][829]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.02.02-21.00.05:294][148]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.00.07:985][471]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-21.00.22:117][150]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.00.38:042][ 11]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-21.01.03:537][ 25]LogStaticMesh: Building static mesh SM_Hall_Light_Square...
+[2020.02.02-21.01.03:611][ 25]LogStaticMesh: Built static mesh [0.07s] /Game/StarterBundle/ModularScifiHallways/Meshes/SM_Hall_Light_Square.SM_Hall_Light_Square
+[2020.02.02-21.01.03:854][ 52]LogActorFactory: Actor Factory created SM_Hall_Light_Square
+[2020.02.02-21.01.04:347][110]LogActorFactory: Actor Factory created SM_Hall_Light_Square
+[2020.02.02-21.01.24:538][519]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.02.26:898][961]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Hall_Light_Square)
+[2020.02.02-21.02.57:307][576]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Hall_Light_Square2)
+[2020.02.02-21.03.03:349][289]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.03.14:637][640]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-21.03.36:910][291]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-21.04.04:326][560]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.04.10:111][251]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-21.04.18:740][283]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-21.04.43:786][270]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2020.02.02-21.05.09:415][323]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.05.15:989][106]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.05.21:006][704]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.02-21.05.22:103][835]MapCheck: New page: Map Check
+[2020.02.02-21.05.22:109][835]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.05.22:111][835]LightingResults: New page: Lighting Build - Feb 2, 2020, 5:05:22 AM
+[2020.02.02-21.05.22:119][835]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.02.02-21.05.22:121][835]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.02.02-21.05.22:121][835]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.02.02-21.05.22:122][835]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.02.02-21.05.22:122][835]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1420
+[2020.02.02-21.05.26:632][835]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.02.02-21.05.26:632][835]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.02.02-21.05.26:632][835]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.02.02-21.05.26:632][835]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.02.02-21.05.26:632][835]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.02.02-21.05.26:633][835]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.02.02-21.05.26:703][835]LogEditorBuildUtils: Build time 0:04
+[2020.02.02-21.05.26:898][841]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2020.02.02-21.05.28:253][925]Job is a success!
+[2020.02.02-21.05.28:314][926]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.05.28:334][926]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.009s
+[2020.02.02-21.05.28:334][926]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.02.02-21.05.28:334][926]LogVolumetricLightmapImport:      BrickData 15x5x5 = 0.0Mb (trimmed 0.1Mb due to 0.010000 MinBrickError)
+[2020.02.02-21.05.28:334][926]LogVolumetricLightmapImport:      Bricks at Level
+[2020.02.02-21.05.28:334][926]LogVolumetricLightmapImport:          0: 33.3% covering 100.0% of volume
+[2020.02.02-21.05.28:334][926]LogVolumetricLightmapImport:          1: 66.7% covering 3.1% of volume
+[2020.02.02-21.05.28:334][926]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2020.02.02-21.05.28:359][926]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2020.02.02-21.05.28:359][926]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2020.02.02-21.05.28:359][926]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 64X8)
+[2020.02.02-21.05.28:367][926]LogStaticLightingSystem: Hallway_2_BuiltData storing lightmap data for 13 meshes in 2 LightmapResourceClusters (6.5 Meshes per cluster).
+[2020.02.02-21.05.28:393][926]Lightmass on N209-011: 749 ms total, 179 ms importing, 33 ms setup, 57 ms photons, 444 ms processing, 0 ms extra exporting [13/13 mappings]. Threads: 3.10 sec total, 206 ms processing.
+[2020.02.02-21.05.28:395][926]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2020.02.02-21.05.28:400][926]LogStaticLightingSystem: Illumination: 6.27 sec (8 ms encoding lightmaps, 6 ms encoding shadowmaps)
+[2020.02.02-21.05.28:400][926]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2020.02.02-21.05.28:400][926]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2020.02.02-21.05.28:637][926]DumpUnbuiltLightIteractions
+[2020.02.02-21.05.28:637][926]Lights with unbuilt interactions: 0
+[2020.02.02-21.05.28:637][926]
+[2020.02.02-21.05.28:637][926]Primitives with unbuilt interactions: 0
+[2020.02.02-21.05.28:641][926]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.05.28:670][927]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.02.02-21.05.28:670][927]MapCheck: New page: Hallway_2 - Feb 2, 2020, 5:05:28 AM
+[2020.02.02-21.05.28:670][927]MapCheck: Error: 1M_Cube2_2 /Game/Procedural/Hallway_2.Hallway_2:PersistentLevel.1M_Cube2_2 : Invalid DrawScale/DrawScale3D 
+[2020.02.02-21.05.28:670][927]MapCheck: Warning: 1M_Cube2_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.02.02-21.05.28:670][927]MapCheck: Error: 1M_Cube3 /Game/Procedural/Hallway_2.Hallway_2:PersistentLevel.1M_Cube3 : Invalid DrawScale/DrawScale3D 
+[2020.02.02-21.05.28:670][927]MapCheck: Warning: 1M_Cube3 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.02.02-21.05.28:670][927]MapCheck: Map check complete: 2 Error(s), 2 Warning(s), took 0.555ms to complete.
+[2020.02.02-21.05.45:570][938]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1M_Cube3)
+[2020.02.02-21.05.46:122][998]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.05.59:290][573]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.06.05:881][357]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.06.07:517][552]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.06.20:614][118]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (1M_Cube3)
+[2020.02.02-21.06.21:384][209]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2020.02.02-21.06.27:681][959]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2020.02.02-21.06.29:075][123]Cmd: DELETE
+[2020.02.02-21.06.29:075][123]Cmd: ACTOR DELETE
+[2020.02.02-21.06.29:076][123]LogEditorActor: Deleted Actor: SpotLight
+[2020.02.02-21.06.29:102][123]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2020.02.02-21.06.29:102][123]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2020.02.02-21.06.32:579][540]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2020.02.02-21.06.33:266][619]Cmd: DELETE
+[2020.02.02-21.06.33:266][619]Cmd: ACTOR DELETE
+[2020.02.02-21.06.33:267][619]LogEditorActor: Deleted Actor: SpotLight
+[2020.02.02-21.06.33:291][619]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.02.02-21.06.33:291][619]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2020.02.02-21.06.36:315][981]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight3)
+[2020.02.02-21.06.37:010][ 61]Cmd: DELETE
+[2020.02.02-21.06.37:010][ 61]Cmd: ACTOR DELETE
+[2020.02.02-21.06.37:011][ 61]LogEditorActor: Deleted Actor: SpotLight
+[2020.02.02-21.06.37:034][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.02.02-21.06.37:034][ 61]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2020.02.02-21.06.40:667][496]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight4)
+[2020.02.02-21.06.41:339][573]Cmd: DELETE
+[2020.02.02-21.06.41:339][573]Cmd: ACTOR DELETE
+[2020.02.02-21.06.41:340][573]LogEditorActor: Deleted Actor: SpotLight
+[2020.02.02-21.06.41:363][573]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.02.02-21.06.41:364][573]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2020.02.02-21.06.44:180][910]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight5)
+[2020.02.02-21.06.45:650][ 83]Cmd: DELETE
+[2020.02.02-21.06.45:650][ 83]Cmd: ACTOR DELETE
+[2020.02.02-21.06.45:650][ 83]LogEditorActor: Deleted Actor: SpotLight
+[2020.02.02-21.06.45:675][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.02.02-21.06.45:676][ 83]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2020.02.02-21.06.47:042][247]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight6)
+[2020.02.02-21.06.47:841][339]Cmd: DELETE
+[2020.02.02-21.06.47:841][339]Cmd: ACTOR DELETE
+[2020.02.02-21.06.47:842][339]LogEditorActor: Deleted Actor: SpotLight
+[2020.02.02-21.06.47:866][339]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.02.02-21.06.47:866][339]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2020.02.02-21.06.49:598][547]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-21.06.58:774][639]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.07.02:051][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-21.07.55:779][441]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.07.58:889][812]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2020.02.02-21.08.02:921][291]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2020.02.02-21.08.07:843][875]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.08.23:636][757]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight5)
+[2020.02.02-21.08.27:190][179]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.08.28:049][282]Cmd: TRANSACTION UNDO
+[2020.02.02-21.08.28:049][282]LogEditorTransaction: Undo Clicking on Actors
+[2020.02.02-21.08.37:976][453]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-21.09.25:450][135]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-21.09.34:087][169]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-21.09.39:788][848]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.09.41:870][ 97]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-21.09.43:447][285]MapCheck: New page: Map Check
+[2020.02.02-21.09.43:461][285]LightingResults: New page: Lighting Build - Feb 2, 2020, 5:09:43 AM
+[2020.02.02-21.09.43:469][285]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.02.02-21.09.43:471][285]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.02.02-21.09.43:471][285]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.02.02-21.09.43:472][285]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.02.02-21.09.43:472][285]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1420
+[2020.02.02-21.09.47:986][285]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.02.02-21.09.47:986][285]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.02.02-21.09.47:986][285]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.02.02-21.09.47:986][285]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.02.02-21.09.47:986][285]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.02.02-21.09.47:986][285]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.02.02-21.09.48:036][285]LogEditorBuildUtils: Build time 0:04
+[2020.02.02-21.09.48:080][286]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2020.02.02-21.09.49:805][400]Job is a success!
+[2020.02.02-21.09.49:868][401]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.09.49:886][401]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.006s
+[2020.02.02-21.09.49:886][401]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.02.02-21.09.49:886][401]LogVolumetricLightmapImport:      BrickData 35x5x5 = 0.0Mb (trimmed 0.1Mb due to 0.010000 MinBrickError)
+[2020.02.02-21.09.49:886][401]LogVolumetricLightmapImport:      Bricks at Level
+[2020.02.02-21.09.49:886][401]LogVolumetricLightmapImport:          0: 14.3% covering 100.0% of volume
+[2020.02.02-21.09.49:886][401]LogVolumetricLightmapImport:          1: 28.6% covering 3.1% of volume
+[2020.02.02-21.09.49:886][401]LogVolumetricLightmapImport:          2: 57.1% covering 0.1% of volume
+[2020.02.02-21.09.49:911][401]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2020.02.02-21.09.49:911][401]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2020.02.02-21.09.49:911][401]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 64X8)
+[2020.02.02-21.09.49:919][401]LogStaticLightingSystem: Hallway_2_BuiltData storing lightmap data for 13 meshes in 2 LightmapResourceClusters (6.5 Meshes per cluster).
+[2020.02.02-21.09.49:945][401]Lightmass on N209-011: 765 ms total, 152 ms importing, 30 ms setup, 58 ms photons, 486 ms processing, 0 ms extra exporting [13/13 mappings]. Threads: 3.40 sec total, 229 ms processing.
+[2020.02.02-21.09.49:947][401]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2020.02.02-21.09.49:952][401]LogStaticLightingSystem: Illumination: 6.47 sec (9 ms encoding lightmaps, 6 ms encoding shadowmaps)
+[2020.02.02-21.09.49:952][401]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2020.02.02-21.09.49:952][401]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2020.02.02-21.09.49:992][401]DumpUnbuiltLightIteractions
+[2020.02.02-21.09.49:992][401]Lights with unbuilt interactions: 0
+[2020.02.02-21.09.49:992][401]
+[2020.02.02-21.09.49:992][401]Primitives with unbuilt interactions: 0
+[2020.02.02-21.09.50:012][402]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.02.02-21.09.50:012][402]MapCheck: New page: Hallway_2 - Feb 2, 2020, 5:09:50 AM
+[2020.02.02-21.09.50:012][402]MapCheck: Error: 1M_Cube2_2 /Game/Procedural/Hallway_2.Hallway_2:PersistentLevel.1M_Cube2_2 : Invalid DrawScale/DrawScale3D 
+[2020.02.02-21.09.50:012][402]MapCheck: Warning: 1M_Cube2_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.02.02-21.09.50:012][402]MapCheck: Error: 1M_Cube3 /Game/Procedural/Hallway_2.Hallway_2:PersistentLevel.1M_Cube3 : Invalid DrawScale/DrawScale3D 
+[2020.02.02-21.09.50:012][402]MapCheck: Warning: 1M_Cube3 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.02.02-21.09.50:013][402]MapCheck: Map check complete: 2 Error(s), 2 Warning(s), took 0.586ms to complete.
+[2020.02.02-21.10.00:621][637]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-21.10.12:819][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-21.10.22:236][203]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2020.02.02-21.10.22:276][203]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.10.23:244][316]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.02.02-21.10.24:336][445]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight5)
+[2020.02.02-21.10.26:466][696]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.10.41:145][448]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2020.02.02-21.10.43:471][723]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.10.44:246][816]Cmd: TRANSACTION UNDO
+[2020.02.02-21.10.44:246][816]LogEditorTransaction: Undo Clicking on Actors
+[2020.02.02-21.10.50:632][566]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2020.02.02-21.10.52:532][790]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.10.53:567][914]Cmd: TRANSACTION UNDO
+[2020.02.02-21.10.53:567][914]LogEditorTransaction: Undo Clicking on Actors
+[2020.02.02-21.11.08:217][652]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-21.11.15:504][524]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.11.25:527][713]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.11.29:619][203]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-21.11.50:892][731]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.11.57:255][485]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-21.12.27:575][109]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2020.02.02-21.12.53:195][163]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.12.59:335][888]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.02-21.13.00:044][973]MapCheck: New page: Map Check
+[2020.02.02-21.13.00:049][973]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.13.00:052][973]LightingResults: New page: Lighting Build - Feb 2, 2020, 5:13:00 AM
+[2020.02.02-21.13.00:060][973]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.02.02-21.13.00:062][973]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.02.02-21.13.00:062][973]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.02.02-21.13.00:063][973]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.02.02-21.13.00:063][973]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1420
+[2020.02.02-21.13.04:574][973]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.02.02-21.13.04:575][973]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.02.02-21.13.04:575][973]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.02.02-21.13.04:575][973]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.02.02-21.13.04:575][973]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.02.02-21.13.04:575][973]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.02.02-21.13.04:625][973]LogEditorBuildUtils: Build time 0:04
+[2020.02.02-21.13.04:667][974]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2020.02.02-21.13.06:093][ 66]Job is a success!
+[2020.02.02-21.13.06:157][ 68]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.13.06:175][ 68]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.007s
+[2020.02.02-21.13.06:175][ 68]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.02.02-21.13.06:175][ 68]LogVolumetricLightmapImport:      BrickData 50x5x5 = 0.0Mb (trimmed 0.1Mb due to 0.010000 MinBrickError)
+[2020.02.02-21.13.06:175][ 68]LogVolumetricLightmapImport:      Bricks at Level
+[2020.02.02-21.13.06:175][ 68]LogVolumetricLightmapImport:          0: 10.0% covering 100.0% of volume
+[2020.02.02-21.13.06:175][ 68]LogVolumetricLightmapImport:          1: 20.0% covering 3.1% of volume
+[2020.02.02-21.13.06:175][ 68]LogVolumetricLightmapImport:          2: 70.0% covering 0.2% of volume
+[2020.02.02-21.13.06:200][ 68]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2020.02.02-21.13.06:200][ 68]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2020.02.02-21.13.06:200][ 68]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 64X8)
+[2020.02.02-21.13.06:208][ 68]LogStaticLightingSystem: Hallway_2_BuiltData storing lightmap data for 13 meshes in 2 LightmapResourceClusters (6.5 Meshes per cluster).
+[2020.02.02-21.13.06:232][ 68]Lightmass on N209-011: 732 ms total, 137 ms importing, 33 ms setup, 65 ms photons, 453 ms processing, 0 ms extra exporting [13/13 mappings]. Threads: 3.16 sec total, 241 ms processing.
+[2020.02.02-21.13.06:234][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2020.02.02-21.13.06:240][ 68]LogStaticLightingSystem: Illumination: 6.17 sec (8 ms encoding lightmaps, 6 ms encoding shadowmaps)
+[2020.02.02-21.13.06:240][ 68]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2020.02.02-21.13.06:240][ 68]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2020.02.02-21.13.06:577][ 68]DumpUnbuiltLightIteractions
+[2020.02.02-21.13.06:577][ 68]Lights with unbuilt interactions: 0
+[2020.02.02-21.13.06:577][ 68]
+[2020.02.02-21.13.06:577][ 68]Primitives with unbuilt interactions: 0
+[2020.02.02-21.13.06:581][ 68]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.13.06:660][ 69]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.02.02-21.13.06:660][ 69]MapCheck: New page: Hallway_2 - Feb 2, 2020, 5:13:06 AM
+[2020.02.02-21.13.06:660][ 69]MapCheck: Error: 1M_Cube2_2 /Game/Procedural/Hallway_2.Hallway_2:PersistentLevel.1M_Cube2_2 : Invalid DrawScale/DrawScale3D 
+[2020.02.02-21.13.06:660][ 69]MapCheck: Warning: 1M_Cube2_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.02.02-21.13.06:660][ 69]MapCheck: Error: 1M_Cube3 /Game/Procedural/Hallway_2.Hallway_2:PersistentLevel.1M_Cube3 : Invalid DrawScale/DrawScale3D 
+[2020.02.02-21.13.06:660][ 69]MapCheck: Warning: 1M_Cube3 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2020.02.02-21.13.06:660][ 69]MapCheck: Map check complete: 2 Error(s), 2 Warning(s), took 0.666ms to complete.
+[2020.02.02-21.13.33:789][283]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.02.02-21.13.33:822][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2020.02.02-21.13.33:939][283]LogSavePackage: Moving '../../../../../../Users/usman.baig/Documents/GitHub/GameJam2020/GameJam2020/Saved/Hallway_27AAD55364CF2BFDC5BA586B7EC943B1C.tmp' to '../../../../../../Users/usman.baig/Documents/GitHub/GameJam2020/GameJam2020/Content/Procedural/Hallway_2.umap'
+[2020.02.02-21.13.33:977][283]LogSavePackage: Moving '../../../../../../Users/usman.baig/Documents/GitHub/GameJam2020/GameJam2020/Saved/Hallway_2_BuiltData8E005E304967A6C443DF78ACFE0D4F66.tmp' to '../../../../../../Users/usman.baig/Documents/GitHub/GameJam2020/GameJam2020/Content/Procedural/Hallway_2_BuiltData.uasset'
+[2020.02.02-21.26.37:191][111]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-21.26.50:116][605]LogAIModule: Creating AISystem for world Room03
+[2020.02.02-21.26.50:118][605]LogAssetEditorManager: Opening Asset editor for World /Game/Procedural/Room03.Room03
+[2020.02.02-21.26.50:144][605]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2020.02.02-21.26.50:145][605]Cmd: MAP LOAD FILE="../../../../../../Users/usman.baig/Documents/GitHub/GameJam2020/GameJam2020/Content/Procedural/Room03.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.02-21.26.50:145][605]LightingResults: New page: Lighting Build
+[2020.02.02-21.26.50:145][605]LoadErrors: New page: Loading map: Room03.umap
+[2020.02.02-21.26.50:146][605]LogWorld: UWorld::CleanupWorld for Hallway_2, bSessionEnded=true, bCleanupResources=true
+[2020.02.02-21.26.50:146][605]MapCheck: New page: Map Check
+[2020.02.02-21.26.50:146][605]LightingResults: New page: Lighting Build
+[2020.02.02-21.26.50:173][605]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2020.02.02-21.26.50:199][605]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2020.02.02-21.26.50:225][605]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2020.02.02-21.26.50:226][605]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.02.02-21.26.50:226][605]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.02.02-21.26.50:226][605]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.02-21.26.50:253][605]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.02.02-21.26.50:273][605]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.02-21.26.50:273][605]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.105ms to complete.
+[2020.02.02-21.26.50:273][605]LogFileHelpers: Loading map 'Room03' took 0.129
+[2020.02.02-21.26.53:009][928]Cmd: SELECT NONE
+[2020.02.02-21.26.54:084][ 55]Cmd: SELECT NONE
+[2020.02.02-21.26.54:301][ 81]Cmd: SELECT NONE
+[2020.02.02-21.26.54:492][104]Cmd: SELECT NONE
+[2020.02.02-21.27.30:125][285]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-21.27.38:923][308]LogAIModule: Creating AISystem for world Room03
+[2020.02.02-21.27.38:925][308]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Proceduralbak/Room03.Room03
+[2020.02.02-21.27.38:950][308]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2020.02.02-21.27.38:951][308]Cmd: MAP LOAD FILE="../../../../../../Users/usman.baig/Documents/GitHub/GameJam2020/GameJam2020/Content/Levels/Proceduralbak/Room03.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.02-21.27.38:951][308]LightingResults: New page: Lighting Build
+[2020.02.02-21.27.38:952][308]LoadErrors: New page: Loading map: Room03.umap
+[2020.02.02-21.27.38:952][308]LogWorld: UWorld::CleanupWorld for Room03, bSessionEnded=true, bCleanupResources=true
+[2020.02.02-21.27.38:952][308]MapCheck: New page: Map Check
+[2020.02.02-21.27.38:952][308]LightingResults: New page: Lighting Build
+[2020.02.02-21.27.38:976][308]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2020.02.02-21.27.38:977][308]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.02.02-21.27.38:977][308]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.02.02-21.27.38:977][308]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.02-21.27.39:002][308]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2020.02.02-21.27.39:022][308]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.02-21.27.39:022][308]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.101ms to complete.
+[2020.02.02-21.27.39:022][308]LogFileHelpers: Loading map 'Room03' took 0.072
+[2020.02.02-21.27.41:676][622]Cmd: SELECT NONE
+[2020.02.02-21.27.42:324][699]LogSlate: FSceneViewport::OnFocusLost() reason 0
