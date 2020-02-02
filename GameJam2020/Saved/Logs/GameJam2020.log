@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿Log file open, 02/02/20 12:49:51
+=======
+﻿Log file open, 02/02/20 12:15:29
+>>>>>>> d6216ac5e280571b88b7aead6a693c33b0a745fa
 =======
 ﻿Log file open, 02/02/20 12:15:29
 >>>>>>> d6216ac5e280571b88b7aead6a693c33b0a745fa
@@ -14,7 +18,11 @@ LogInit: Display: Running engine for game: GameJam2020
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
 <<<<<<< HEAD
+<<<<<<< HEAD
 LogStats: Stats thread started at 0.070699
+=======
+LogStats: Stats thread started at 0.073093
+>>>>>>> d6216ac5e280571b88b7aead6a693c33b0a745fa
 =======
 LogStats: Stats thread started at 0.073093
 >>>>>>> d6216ac5e280571b88b7aead6a693c33b0a745fa
@@ -131,7 +139,11 @@ LogInit: Engine Version: 4.23.1-9631420+++UE4+Release-4.23
 LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
 LogInit: Net CL: 8386587
 <<<<<<< HEAD
+<<<<<<< HEAD
 LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-4770K CPU @ 3.50GHz, GPU: NVIDIA GeForce GTX 1080
+=======
+LogInit: OS: Windows 10 (Release 1809) (), CPU: Intel(R) Xeon(R) CPU E5-1620 v3 @ 3.50GHz, GPU: NVIDIA Quadro K4200
+>>>>>>> d6216ac5e280571b88b7aead6a693c33b0a745fa
 =======
 LogInit: OS: Windows 10 (Release 1809) (), CPU: Intel(R) Xeon(R) CPU E5-1620 v3 @ 3.50GHz, GPU: NVIDIA Quadro K4200
 >>>>>>> d6216ac5e280571b88b7aead6a693c33b0a745fa
@@ -139,12 +151,11 @@ LogInit: Compiled (64-bit): Oct 18 2019 02:07:44
 LogInit: Compiled with Visual C++: 19.16.27030.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.23
-<<<<<<< HEAD
-LogInit: Command Line:  -audiomixer
-LogInit: Base Directory: E:/unreal/UE_4.23/Engine/Binaries/Win64/
-=======
 LogInit: Command Line: 
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/Win64/
+<<<<<<< HEAD
+>>>>>>> d6216ac5e280571b88b7aead6a693c33b0a745fa
+=======
 >>>>>>> d6216ac5e280571b88b7aead6a693c33b0a745fa
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23
@@ -175,6 +186,7 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 <<<<<<< HEAD
 [2020.02.02-20.49.51:917][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2020.02.02-20.49.51:917][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
@@ -2291,6 +2303,8 @@ Make sure 'Whiteboard_MotionController' has been compiled for  Set GripState
 [2020.02.02-21.00.19:738][215]LogPlayLevel: Display: Destroying online subsystem :Context_13
 [2020.02.02-21.00.24:878][830]LogSlate: FSceneViewport::OnFocusLost() reason 0
 =======
+=======
+>>>>>>> d6216ac5e280571b88b7aead6a693c33b0a745fa
 [2020.02.02-20.15.29:325][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2020.02.02-20.15.29:325][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2020.02.02-20.15.29:325][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/usman.baig/Documents/GitHub/GameJam2020/GameJam2020/Saved/Config/Windows/Engine.ini]
@@ -3524,4 +3538,7 @@ Make sure 'Whiteboard_MotionController' has been compiled for  Set GripState
 [2020.02.02-20.58.55:562][467]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
 [2020.02.02-20.58.55:672][467]LogSavePackage: Moving '../../../../../../Users/usman.baig/Documents/GitHub/GameJam2020/GameJam2020/Saved/Hallway_2A088B293464B49A0DC799EB7EB4C93CD.tmp' to '../../../../../../Users/usman.baig/Documents/GitHub/GameJam2020/GameJam2020/Content/Procedural/Hallway_2.umap'
 [2020.02.02-20.58.59:122][875]LogEditorViewport: Clicking Background
+<<<<<<< HEAD
+>>>>>>> d6216ac5e280571b88b7aead6a693c33b0a745fa
+=======
 >>>>>>> d6216ac5e280571b88b7aead6a693c33b0a745fa
